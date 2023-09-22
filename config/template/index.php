@@ -1,4 +1,10 @@
-<?php require_once ("pages/header.php"); ?>
+<?php 
+require_once ("pages/header.php"); 
+require_once ("conexao.php");
+
+
+
+?>
 
 	<body>
 		<!-- HEADER -->
@@ -332,7 +338,7 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="img/product06.png" alt="">
+												<img src="./img/product06.png" alt="">
 												<div class="product-label">
 													<span class="sale">-30%</span>
 													<span class="new">NEW</span>
@@ -364,7 +370,7 @@
 										<!-- product -->
 										<div class="product">
 											<div class="product-img">
-												<img src="/img/product07.png" alt="">
+												<img src="./img/product07.png" alt="">
 												<div class="product-label">
 													<span class="new">NEW</span>
 												</div>
@@ -745,7 +751,6 @@
 									</div>
 								</div>
 								<!-- /product widget -->
-
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
@@ -758,7 +763,6 @@
 									</div>
 								</div>
 								<!-- /product widget -->
-
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
